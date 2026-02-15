@@ -1,42 +1,145 @@
-#root {
-  max-width: 1280px;
+body .content {
+  max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
+  font-family: Mukta, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Bitter, serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: -1.5px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 50px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-size: 38px;
+  letter-spacing: 0px;
+}
+
+h4 {
+  font-size: 30px;
+  letter-spacing: 0.25px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 0.25px;
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: 0.25px;
+}
+
+.page_header {
   text-align: center;
+  font-family: Bitter, serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  margin-bottom: 64px;
+  margin-top: 48px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+span {
+  color: #e95400;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headline {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin: 40px 0;
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+blockquote {
+  margin: 0 0 0 40px;
+  border-left: 2px solid #e95400;
+  padding-left: 20px;
+  font-size: 14px;
+  font-style: italic;
+  margin: 32px 0 32px 32px;
 }
 
-.card {
-  padding: 2em;
+blockquote cite {
+  font-weight: bold;
+  display: block;
+  padding-left: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+code {
+  color: #e95400;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #863ae8;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 28px 0;
+}
+
+.footer ul li {
+  display: inline;
+  padding: 0 16px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #863ae8;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Mukta, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+header h1,
+header p {
+  width: 75%;
+  max-width: 900px;
+  margin: 16px 0;
+}
+
+header hr {
+  width: 50%;
+  margin: 32px 0;
 }
